@@ -1,0 +1,14 @@
+.bodyHomePage {
+  margin-top: 130px;
+  margin-left: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 800px;
+  height: 300px;
+  text-align: center;
+}
+.textHome {
+  padding-top: 79px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 35px;
+  color: rgb(16, 63, 4);
+}

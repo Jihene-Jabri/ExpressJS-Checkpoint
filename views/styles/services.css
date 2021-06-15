@@ -1,0 +1,53 @@
+.services-container {
+  display: flex;
+}
+#service-card {
+  width: 300px;
+  height: 400px;
+  margin: 50px 50px;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+}
+#image-service {
+  width: 190;
+  height: 140;
+  margin-top: 80px;
+}
+#service-card h1 {
+  text-align: center;
+}
+#service-card p {
+  padding-top: 30px;
+  text-align: justify;
+}
+#btn-shop {
+  background-color: rgb(7, 97, 60);
+  border: none;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+#btn {
+  background-color: rgb(7, 97, 60);
+  border: none;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left: 90px;
+}
+#btn2 {
+  background-color: rgb(7, 97, 60);
+  border: none;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 15px;
+  margin-top: 110px;
+  margin-left: 90px;
+}

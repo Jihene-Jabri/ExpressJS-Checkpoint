@@ -1,0 +1,22 @@
+body {
+  background-image: url(https://casperblog.imgix.net/blog/wp-content/uploads/2020/12/07-play-around-with-plants.jpg?auto=format);
+  background-size: contain;
+}
+.closedPage {
+  width: 650px;
+  height: 300px;
+  margin: 70px 50px;
+  margin-left: 330px;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.closedPage > * {
+  margin-top: 20px;
+  text-align: center;
+}
+#email {
+  font-weight: bold;
+  color: teal;
+}

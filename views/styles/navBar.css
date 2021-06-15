@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(https://casperblog.imgix.net/blog/wp-content/uploads/2020/12/07-play-around-with-plants.jpg?auto=format);
+  background-size: contain;
+}
+.navbar-container {
+  height: 70px;
+
+  position: static;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.navtitle {
+  padding-top: 10px;
+  margin-top: 10px;
+  color: rgb(231, 75, 14);
+}
+
+.nav-header {
+  display: flex;
+  height: 80px;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
+  margin: auto;
+}
+
+.navmenu {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  font-size: 15px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+.navmenu a {
+  text-decoration: none;
+  color: #f00808;
+}
+
+.navmenu a:hover {
+  text-decoration: none;
+  color: #380303;
+}
+
+.navmenu a:focus {
+  text-decoration: none;
+  color: #380303;
+}
+.navmenu li {
+  margin: auto 20px;
+  padding: 15px 5px;
+
+  font-size: 20px;
+}
