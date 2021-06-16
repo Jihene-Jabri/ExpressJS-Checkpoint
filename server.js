@@ -2,7 +2,10 @@ const express = require("express");
 const app = express();
 
 const port = 5000;
-app.use(express.static("views"));
+
+app.get("/styles/closed.css", (req, res) => {
+  res.sendFile(`${__dirname}/views/styles/closed.css`);
+});
 
 const time_verify = (req, res, next) => {
   let date = new Date();
@@ -17,18 +20,6 @@ const time_verify = (req, res, next) => {
 
 app.use(time_verify, express.static("views"));
 
-app.get("/", (req, res) => {
-  res.sendFile(`${__dirname}/views/index.html`);
-});
-app.get("/services", (req, res) => {
-  res.sendFile(`${__dirname}/views/services.html`);
-});
-app.get("/contact", (req, res) => {
-  res.sendFile(`${__dirname}/views/contact.html`);
-});
-app.all("*", (req, res) => {
-  res.status(404).send("<h2>not found...</h2>");
-});
 app.listen(port, (err) => {
   if (err) throw err;
   console.log(`http://localhost:${port}`);
